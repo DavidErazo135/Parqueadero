@@ -1,0 +1,41 @@
+h1{
+		
+
+text-align:center;
+color: #5499C7 ;
+background: white;
+}
+body{
+		background-image: url(parqueadero2.jpg);
+		
+
+	}
+
+*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box; 
+	}
+
+	.form-registro{
+
+		width: 400px;
+		background: #D1DAE8;
+		padding: 30px;
+		margin: auto;
+		margin-top: 100px;
+		border-radius:4px;
+		font-family: 'calibri';
+		color: white ;
+		box-shadow: 7px 13px 37px #000 ;
+	}
+	.card-title{
+		text-align:center;
+		color: #1D3250 ;
+		font-family: 'Permanent Marker', cursive;
+	}
+	.sex{
+		color: black;
+
+	}
+	

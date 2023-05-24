@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Estudiante</title>
+	<!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<h1 align="center">Bienvenido al parqueadero udenar</h1>
+ 		<form method="post" action="#">
+
+ 			<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+			<div class="container-fluid">
+			<a class="navbar-brand" href="#">Parqueadero udenar </a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+					</li>
+					
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+ 		</form>
+
+ 			<form class="form-registro">
+						<label for="nombre" class="form-label ">Nombre</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">🚻</span>
+							<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingrese nombre"
+								aria-label="nombre" aria-describedby="basic-addon1">
+						</div>
+						<label for="iden" class="form-label">Identificacion</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">🆔</span>
+							<input type="number" id="iden" name="iden" class="form-control"
+								placeholder="Ingrese numero de identificacion" aria-label="iden"
+								aria-describedby="basic-addon1">
+						</div>
+						<label for="dir" class="form-label">Direccion</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">↗</span>
+							<input type="text" id="dir" name="dir" class="form-control"
+								placeholder="Ingrese direccion de residencia" aria-label="dir"
+								aria-describedby="basic-addon1">
+						</div>
+
+						<label for="cel" class="form-label">Celular</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">📱</span>
+							<input type="number" id="cel" name="cel" class="form-control"
+								placeholder="Ingrese numero de celular" aria-label="cel" aria-describedby="basic-addon1">
+						</div>
+
+						<label for="gen" class="form-label">Género</label>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="gen" id="gen" value="M">
+							<label class="form-check-label" for="gen">
+								M
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="gen" id="gen2" value="F">
+							<label id="sex" class="form-check-label" for="gen2">
+								F
+							</label>
+						</div>
+
+						<label for="iden" class="form-label">Facultad a la que pertenece</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">📱</span>
+							<input type="number" id="iden" name="iden" class="form-control"
+								placeholder="Facultad" aria-label="iden"
+								aria-describedby="basic-addon1">
+						</div>
+
+						<label for="iden" class="form-label">Carrera a la que pertenece</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">📱</span>
+							<input type="number" id="iden" name="iden" class="form-control"
+								placeholder="carrera" aria-label="iden"
+								aria-describedby="basic-addon1">
+						</div>
+
+						<label for="ed" class="form-label">Edad</label>
+						<div class="input-group mb-3">
+							<span class="input-group-text" id="basic-addon1">🔢</span>
+							<input type="text" id="ed" name="ed" class="form-control" placeholder="Ingrese edad"
+								aria-label="ed" aria-describedby="basic-addon1">
+						</div>
+						<div class="d-flex justify-content-center">
+							<button type="button" class="btn btn-success" onclick="formulario()">Ingresar vehículo</button>
+						</div>
+					</form>
+
+</body>
+</html>
